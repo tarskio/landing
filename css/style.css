@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #2D1B33 url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4230/background.png") center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: "proxima-nova",sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 37px;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+img {
+  max-width: 100%;
+}
+
+.capture {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+@media screen and (min-width: 600px) {
+  .signup-form img {
+    margin-bottom: 3em;
+  }
+}
+.signup-form form {
+  margin-top: 3em;
+}
+.signup-form input {
+  background-color: #e1d6e5;
+  font-size: 21px;
+  border: none;
+  border-radius: 8px;
+  display: block;
+  height: 41px;
+  padding: 0 1em;
+  width: 100%;
+}
+@media screen and (min-width: 600px) {
+  .signup-form input {
+    display: inline-block;
+    width: auto;
+  }
+}
+.signup-form .form-input {
+  min-width: 300px;
+}
+.signup-form .btn {
+  background-color: #DF2E1B;
+  font-weight: bold;
+  margin: 1em auto 0;
+  padding: 0 2em;
+  width: 60%;
+}
+@media screen and (min-width: 600px) {
+  .signup-form .btn {
+    margin: 0 0 0 0.2em;
+    width: 180px;
+  }
+}
